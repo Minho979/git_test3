@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] a = createArray(10, 1, 10);
+        int[] a = createArray(10, 1, 11);
         Sort.sort(a);
         System.out.println(Arrays.toString(a));
     }
